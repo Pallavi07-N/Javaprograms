@@ -1,0 +1,24 @@
+//copy the elements one array element to another array element
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+		int[] a=new int[5];
+		Scanner sc= new Scanner(System.in);
+		for(int i=0;i<a.length;i++)
+		{
+		    a[i]=sc.nextInt();
+		    
+		}
+		int[]b=new int[a.length];
+		for(int i=0;i<a.length;i++)
+		{
+		    b[i]=a[i];
+		    
+		}
+		for(int i=0;i<a.length;i++)
+		{
+		    System.out.print(b[i]);
+		}
+	}
+}
